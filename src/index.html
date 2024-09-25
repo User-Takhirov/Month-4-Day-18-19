@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F7F8FD]">
+    <section class="container mt-[94px]">
+      <div class="flex justify-between">
+        <div class="left_block w-[255px]">
+          <div
+            class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-[10px] mb-[24px]"
+          >
+            <div class="container">
+              <div class="pt-[62px] pr-[78px] pb-[24px] pl-[24px]">
+                <h1 class="font-[700] text-[18px] text-white">
+                  Frontend Mentor
+                </h1>
+                <p class="font-[500] text-[15px] text-[#E0D4FC]">
+                  Feedback Board
+                </p>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="tab flex flex-wrap gap-[8px] gap-y-[14px] py-[24px] pr-[50px] pl-[24px] bg-white rounded-[10px] mb-[24px]"
+          ></ul>
+          <div
+            class="bg-[#fff] mt-[24px] pl-[24px] pr-[24px] pt-[19px] pb-[24px] rounded-[10px]"
+          >
+            <div class="flex justify-between items-center mb-[24px]">
+              <h3 class="font-[700] text-[18px] text-[#3a4374]">Roadmap</h3>
+              <a href="#" class="font-[600] text-13px underline text-[#4661e6]"
+                >View</a
+              >
+            </div>
+            <div class="flex justify-between items-center mb-[8px]">
+              <div class="flex items-center gap-[16px]">
+                <span
+                  class="rounded-[100%] w-[8px] h-[8px] inline-block bg-[#f49f85]"
+                ></span>
+                <p class="font-[400] text-[16px] text-[#647196]">Planned</p>
+              </div>
+              <p class="font-[700] text-[16px] text-[#647196]">2</p>
+            </div>
+            <div class="flex justify-between items-center mb-[8px]">
+              <div class="flex items-center gap-[16px]">
+                <span
+                  class="rounded-[100%] w-[8px] h-[8px] inline-block bg-[#ad1fea]"
+                ></span>
+                <p class="font-[400] text-[16px] text-[#647196]">In-Progress</p>
+              </div>
+              <p class="font-[700] text-[16px] text-[#647196]">3</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-[16px]">
+                <span
+                  class="rounded-[100%] w-[8px] h-[8px] inline-block bg-[#62bcfa]"
+                ></span>
+                <p class="font-[400] text-[16px] text-[#647196]">Live</p>
+              </div>
+              <p class="font-[700] text-[16px] text-[#647196]">1</p>
+            </div>
+          </div>
+        </div>
+        <div class="right_block w-[855px]">
+          <div
+            class="bg-[#373f68] rounded-[10px] flex justify-between items-center py-[23px] px-[23px] mb-[24px]"
+          >
+            <div class="flex gap-[30px]">
+              <div class="flex gap-[16px]">
+                <img src="./img/bulb.svg" alt="#" />
+                <h2 class="font-[700] text-[18px] text-white">6 Suggestions</h2>
+              </div>
+              <div class="flex items-center">
+                <p class="font-[400] text-[14px] text-[#f2f4fe]">Sort by :</p>
+                <select
+                  class="font-[700] text-[14px] text-[#f2f4f2] bg-transparent"
+                >
+                  <option selected class="">Most Upvotes</option>
+                </select>
+              </div>
+             
+            </div>
+            <div>
+                <input class=" outline-blue-800 border border-[#373f68] input py-[5px] pl-[10px] pr-[10px] rounded-[5px]" type="text"   placeholder="Search">
+              </div>
+            <div>
+              <button
+                class="font-[700] text-[14px] text-[#f2f4f2] bg-[#ad1fea] rounded-[10px] py-[12px] px-[25px]"
+              >
+                + Add Feedback
+              </button>
+            </div>
+          </div>
+          <div class="comments"></div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./data/main.js"></script>
+  </body>
+</html>
