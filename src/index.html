@@ -72,7 +72,10 @@
             <div class="flex gap-[30px]">
               <div class="flex gap-[16px]">
                 <img src="./img/bulb.svg" alt="#" />
-                <h2 class="font-[700] text-[18px] text-white">6 Suggestions</h2>
+                <div class="flex gap-[6px]">
+                  <h2 class="counter font-[700] text-[18px] text-white"></h2>
+                  <h2 class="font-[700] text-[18px] text-white">Suggestions</h2>
+                </div>
               </div>
               <div class="flex items-center">
                 <p class="font-[400] text-[14px] text-[#f2f4fe]">Sort by :</p>
@@ -82,20 +85,38 @@
                   <option selected class="">Most Upvotes</option>
                 </select>
               </div>
-             
             </div>
             <div>
-                <input class=" outline-blue-800 border border-[#373f68] input py-[5px] pl-[10px] pr-[10px] rounded-[5px]" type="text"   placeholder="Search">
-              </div>
-            <div>
+              <input
+                class="outline-blue-800 text-[#3A4374] capitalize text-[16px] font-[500] border border-[#373f68] input py-[5px] pl-[10px] pr-[10px] rounded-[5px]"
+                type="text"
+                placeholder="Search"
+              />
+            </div>
+            <div class="modal_btn_block">
               <button
-                class="font-[700] text-[14px] text-[#f2f4f2] bg-[#ad1fea] rounded-[10px] py-[12px] px-[25px]"
+                class="modal_btn font-[700] text-[14px] text-[#f2f4f2] bg-[#ad1fea] rounded-[10px] py-[12px] px-[25px]"
               >
                 + Add Feedback
               </button>
             </div>
           </div>
           <div class="comments"></div>
+            <div class="modal_bg">
+              <div class="container flex justify-center w-[540px]">
+                <button
+                  class="close_btn gap-[9px] items-center flex justify-center font-[700] text-[14px] text-white mr-auto"
+                >
+                  <div class="flex items-center gap-[9px] mt-[92px] ">
+                    <img src="./img/left_angle.svg" alt="#" />
+                    Go Back
+                  </div>
+                </button>
+                <div
+                  class="modal_items relative bg-white rounded-[10px] h-[745px]  mt-[180px] px-[42px] py-[52px]"
+                ></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

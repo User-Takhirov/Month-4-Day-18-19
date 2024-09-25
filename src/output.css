@@ -566,6 +566,10 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -573,6 +577,10 @@ video {
 
 .mb-\[12px\] {
   margin-bottom: 12px;
+}
+
+.mb-\[16px\] {
+  margin-bottom: 16px;
 }
 
 .mb-\[20px\] {
@@ -583,12 +591,36 @@ video {
   margin-bottom: 24px;
 }
 
+.mb-\[2px\] {
+  margin-bottom: 2px;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
 .mb-\[4px\] {
   margin-bottom: 4px;
 }
 
+.mb-\[53px\] {
+  margin-bottom: 53px;
+}
+
 .mb-\[8px\] {
   margin-bottom: 8px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-\[180px\] {
+  margin-top: 180px;
 }
 
 .mt-\[24px\] {
@@ -599,8 +631,16 @@ video {
   margin-top: 28px;
 }
 
+.mt-\[92px\] {
+  margin-top: 92px;
+}
+
 .mt-\[94px\] {
   margin-top: 94px;
+}
+
+.block {
+  display: block;
 }
 
 .inline-block {
@@ -611,12 +651,40 @@ video {
   display: flex;
 }
 
+.h-\[48px\] {
+  height: 48px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[745px\] {
+  height: 745px;
+}
+
 .h-\[8px\] {
   height: 8px;
 }
 
+.h-\[96px\] {
+  height: 96px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .w-\[255px\] {
   width: 255px;
+}
+
+.w-\[421px\] {
+  width: 421px;
+}
+
+.w-\[540px\] {
+  width: 540px;
 }
 
 .w-\[855px\] {
@@ -635,6 +703,14 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -651,8 +727,16 @@ video {
   gap: 40px;
 }
 
+.gap-\[6px\] {
+  gap: 6px;
+}
+
 .gap-\[8px\] {
   gap: 8px;
+}
+
+.gap-\[9px\] {
+  gap: 9px;
 }
 
 .gap-y-\[14px\] {
@@ -683,6 +767,11 @@ video {
 .bg-\[\#373f68\] {
   --tw-bg-opacity: 1;
   background-color: rgb(55 63 104 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3a4374\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 67 116 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#62bcfa\] {
@@ -758,9 +847,19 @@ video {
   padding-right: 23px;
 }
 
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.px-\[42px\] {
+  padding-left: 42px;
+  padding-right: 42px;
 }
 
 .px-\[9px\] {
@@ -786,6 +885,11 @@ video {
 .py-\[28px\] {
   padding-top: 28px;
   padding-bottom: 28px;
+}
+
+.py-\[52px\] {
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 
 .py-\[5px\] {
@@ -834,6 +938,10 @@ video {
   padding-right: 78px;
 }
 
+.pt-\[111px\] {
+  padding-top: 111px;
+}
+
 .pt-\[14px\] {
   padding-top: 14px;
 }
@@ -844,6 +952,26 @@ video {
 
 .pt-\[62px\] {
   padding-top: 62px;
+}
+
+.pl-\[20px\] {
+  padding-left: 20px;
+}
+
+.pl-\[200px\] {
+  padding-left: 200px;
+}
+
+.pl-\[90px\] {
+  padding-left: 90px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
 }
 
 .text-center {
@@ -874,6 +1002,10 @@ video {
   font-size: 20px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .font-\[400\] {
   font-weight: 400;
 }
@@ -888,6 +1020,15 @@ video {
 
 .font-\[700\] {
   font-weight: 700;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-\[\#3A4374\] {
+  --tw-text-opacity: 1;
+  color: rgb(58 67 116 / var(--tw-text-opacity));
 }
 
 .text-\[\#3a4374\] {
@@ -925,14 +1066,14 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -941,4 +1082,33 @@ video {
 
 .outline-blue-800 {
   outline-color: #1e40af;
+}
+
+.modal_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal_items {
+  position: fixed;
+  padding: 42px 52px;
+  display: none;
+  height: auto;
+}
+
+.btn_img {
+  position: absolute;
+  top:20px;
+  margin-left: 0;
+  transform: translateY(-50px);
+  cursor: pointer;
 }
