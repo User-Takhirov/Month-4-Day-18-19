@@ -146,7 +146,7 @@ const OpenModal = () => {
     <div class="mb-[32px]">
   <h3 class="font-[700] text-[14px] text-[#3a4374] mb-[2px]">Feedback Detail</h3>
   <p class="font-[400] text-[13px] text-[#647196] mb-[16px]">Include any specific comments on what should be improved, added, etc.</p>
-  <input type="text" class="w-[100%] h-[96px] bg-[#F7F8FD]  pl-[20px] pr-[30px]" />
+  <textarea rows="4" class="w-[100%] pt-[5px] bg-[#F7F8FD] rounded-[10px]  pl-[5px] pr-[5px]""></textarea> 
   </div>
   <div class="flex justify-end gap-[16px]">
   <button class="font-[700] text-[14px] text-[#f2f4fe] bg-[#3a4374] rounded-[10px] py-[12px] px-[24px]">Cancel</button>
